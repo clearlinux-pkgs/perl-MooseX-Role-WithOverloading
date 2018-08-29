@@ -1,0 +1,7 @@
+0.17
+perl(Moose)
+perl(Moose::Exporter)
+perl(Moose::Role)
+perl(aliased)
+perl(namespace::autoclean)
+perl(namespace::clean)
