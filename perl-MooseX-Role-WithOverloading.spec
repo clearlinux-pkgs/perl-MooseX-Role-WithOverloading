@@ -4,14 +4,14 @@
 #
 Name     : perl-MooseX-Role-WithOverloading
 Version  : 0.17
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Role-WithOverloading-0.17.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Role-WithOverloading-0.17.tar.gz
-Summary  : '(DEPRECATED) Roles which support overloading'
+Summary  : (DEPRECATED) Roles which support overloading
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
-Requires: perl-MooseX-Role-WithOverloading-data = %{version}-%{release}
 Requires: perl-MooseX-Role-WithOverloading-lib = %{version}-%{release}
+Requires: perl-MooseX-Role-WithOverloading-license = %{version}-%{release}
 BuildRequires : buildreq-cpan
 BuildRequires : perl(Moose)
 BuildRequires : perl(Moose::Exporter)
@@ -24,20 +24,12 @@ BuildRequires : perl(namespace::clean)
 This archive contains the distribution MooseX-Role-WithOverloading,
 version 0.17:
 
-%package data
-Summary: data components for the perl-MooseX-Role-WithOverloading package.
-Group: Data
-
-%description data
-data components for the perl-MooseX-Role-WithOverloading package.
-
-
 %package dev
 Summary: dev components for the perl-MooseX-Role-WithOverloading package.
 Group: Development
 Requires: perl-MooseX-Role-WithOverloading-lib = %{version}-%{release}
-Requires: perl-MooseX-Role-WithOverloading-data = %{version}-%{release}
 Provides: perl-MooseX-Role-WithOverloading-devel = %{version}-%{release}
+Requires: perl-MooseX-Role-WithOverloading = %{version}-%{release}
 
 %description dev
 dev components for the perl-MooseX-Role-WithOverloading package.
@@ -46,10 +38,18 @@ dev components for the perl-MooseX-Role-WithOverloading package.
 %package lib
 Summary: lib components for the perl-MooseX-Role-WithOverloading package.
 Group: Libraries
-Requires: perl-MooseX-Role-WithOverloading-data = %{version}-%{release}
+Requires: perl-MooseX-Role-WithOverloading-license = %{version}-%{release}
 
 %description lib
 lib components for the perl-MooseX-Role-WithOverloading package.
+
+
+%package license
+Summary: license components for the perl-MooseX-Role-WithOverloading package.
+Group: Default
+
+%description license
+license components for the perl-MooseX-Role-WithOverloading package.
 
 
 %prep
@@ -97,10 +97,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 /usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/ToRole.pm
 /usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Composite.pm
 
-%files data
-%defattr(-,root,root,-)
-/usr/share/package-licenses/perl-MooseX-Role-WithOverloading/LICENCE
-
 %files dev
 %defattr(-,root,root,-)
 /usr/share/man/man3/MooseX::Role::WithOverloading.3
@@ -109,3 +105,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 %files lib
 %defattr(-,root,root,-)
 /usr/lib/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/MooseX/Role/WithOverloading/WithOverloading.so
+
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/perl-MooseX-Role-WithOverloading/LICENCE
