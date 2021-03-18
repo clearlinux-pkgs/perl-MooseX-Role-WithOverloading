@@ -4,7 +4,7 @@
 #
 Name     : perl-MooseX-Role-WithOverloading
 Version  : 0.17
-Release  : 12
+Release  : 13
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Role-WithOverloading-0.17.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Role-WithOverloading-0.17.tar.gz
 Summary  : '(DEPRECATED) Roles which support overloading'
@@ -96,16 +96,16 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/Composite.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/Composite/ToClass.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/Composite/ToInstance.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/Composite/ToRole.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/FixOverloadedRefs.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/ToClass.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/ToInstance.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/ToRole.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Composite.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/MooseX/Role/WithOverloading/WithOverloading.so
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/Composite.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/Composite/ToClass.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/Composite/ToInstance.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/Composite/ToRole.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/FixOverloadedRefs.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/ToClass.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/ToInstance.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Application/ToRole.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/MooseX/Role/WithOverloading/Meta/Role/Composite.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/MooseX/Role/WithOverloading/WithOverloading.so
