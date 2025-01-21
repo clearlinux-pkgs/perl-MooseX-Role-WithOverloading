@@ -4,7 +4,7 @@
 #
 Name     : perl-MooseX-Role-WithOverloading
 Version  : 0.17
-Release  : 21
+Release  : 22
 URL      : https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Role-WithOverloading-0.17.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Role-WithOverloading-0.17.tar.gz
 Summary  : '(DEPRECATED) Roles which support overloading'
